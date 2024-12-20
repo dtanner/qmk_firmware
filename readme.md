@@ -1,3 +1,27 @@
+# Dan Notes
+
+Install
+```bash
+brew install qmk/qmk/qmk
+g clone --recurse-submodules https://github.com/dtanner/qmk_firmware.git
+qmk setup -H /Users/dantanner/code/qmk_firmware
+brew install qmk-toolbox
+```
+
+Build default:
+
+	qmk compile -kb keychron/v1/ansi_encoder -km default
+
+Edit the `keyboard.json` and `keymap.c` files
+Then can build the default again
+
+
+## Notes
+- must plug USB cable into USB3 port, not HID. 
+- hold down escape key then plug in keyboard to enter bootloader mode
+
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)

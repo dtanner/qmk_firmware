@@ -22,7 +22,10 @@
         "nkro": true,
         "encoder": true,
         "dip_switch": true,
-        "rgb_matrix": true
+        "rgb_matrix": false
+    },
+    "tapping": {
+        "term": 175
     },
     "layouts": {
         "LAYOUT_ansi_82": {
